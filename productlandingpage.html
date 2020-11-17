@@ -8,55 +8,69 @@
 </head>
 <body>
 	<header id="header">
-		<img src="logo.png" alt="LOGO" id="header-img">
+			<img src="logo.png" alt="LOGO" id="header-img">
 		<nav id="nav-bar">
-			<div class="nav-link"><a href="" class="nav-items"><strong>Features</strong></a></div>
-			<div class="nav-link"><a href="" class="nav-items"><strong>Products</strong></a></div>
-			<div class="nav-link"><a href="" class="nav-items"><strong>Pricing</strong></a></div>
+			<div><a href="#features" class="nav-link nav-items"><strong>Features</strong></a></div>
+			<div><a href="#info" class="nav-link nav-items"><strong>Info</strong></a></div>
+			<div><a href="#pricing" class="nav-link nav-items"><strong>Pricing</strong></a></div>
 		</nav>
 	</header>
-	<div class="hollow">_</div>
-	
-	<div class="form" id="form">
-		<h1 class="main-header">Berries</h1>
-		<form action="https://www.freecodecamp.com/email-submit">
+	<div class="form">
+		<h1 class="main-header">Fresh berries</h1>
+		<form id="form" action="https://www.freecodecamp.com/email-submit">
 			<input type="email" id="email" name="email" class="email" placeholder="Enter your email address"><br>
-			<button id="submit"><strong>Get started</strong></button>
+			<input type="submit" id="submit">
 		</form>
 	</div>
-
-	<table>
+	<table id=features>
 		<tr>
 			<td><img src="featureslogos/premiummaterials.png" alt="" class="feature"></td>
 			<td class="featuretext">
-				<h1>Premium Materials</h1>
+				<h2>Premium Materials</h2>
 				<p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
 			</td>
 		</tr>
 		<tr>
 			<td><img src="featureslogos/fastshipping.png" alt="" class="feature"></td>
 			<td class="featuretext">
-				<h1>Fast Shipping</h1>
+				<h2>Fast Shipping</h2>
 				<p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
 			</td>
 		</tr>
 		<tr>
 			<td><img src="featureslogos/qualityassurance.png" alt="" class="feature"></td>
 			<td class="featuretext">
-				<h1>Quality Assurance</h1>
+				<h2>Quality Assurance</h2>
 				<p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
 			</td>
 		</tr>
 	</table>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/mnpUPo3dPGA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
-	<div>
-		<div>подписка1</div>
-		<div>подписка2</div>
-		<div>подписка3</div>
+	<div id="info"><iframe width="560" height="315" src="https://www.youtube.com/embed/mnpUPo3dPGA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe></div>
+	<div class="subscrcont" id="pricing">
+		<div class="subscrunit">
+			<h2 class="subscrtype">Cranberry</h2>
+			<p class="price">7$</p>
+			<p class="type-descr">Lorem ipsum dolor sit amet</p>
+			<button class="select">Select</button>
+		</div>
+		<div class="subscrunit">
+			<h2 class="subscrtype">Raspberry</h2>
+			<p class="price">10$</p>
+			<p class="type-descr">Lorem ipsum dolor sit amet</p>
+			<button class="select">Select</button>
+		</div>
+		<div class="subscrunit">
+			<h2 class="subscrtype">Strawberry</h2>
+			<p class="price">12$</p>
+			<p class="type-descr">Lorem ipsum dolor sit amet</p>
+			<button class="select">Select</button>
+		</div>
 	</div>
-
-	<footer>
-		<div></div>
+	<footer class="footer">
+		<div>
+			<p><a href="" class="footerlinks">Contact</a><a href="" class="footerlinks">Terms</a></p>
+			<p class="copyright">Fresh berries, 2020</p>		
+		</div>
 	</footer>
 </body>
 </html>
